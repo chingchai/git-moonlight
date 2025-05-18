@@ -16,7 +16,7 @@
 
 # UX/UI Note
 - UX/UI ที่ไม่ได้เขียนโค้ด → แนบงานใน issue หรือแนบ Figma link พร้อม version
-- ถ้าทำไฟล์ component หรือ style จริงใน repo → ใช้ branch ตามชื่อ `ux-ui/feature-xyz`, `ux-ui/bugfix-modal-alignment`
+- ถ้าทำไฟล์ component หรือ style จริงใน repo → ใช้ branch ตามชื่อ `ux/feature-xyz`, `ui/bugfix-modal-alignment`
 
 - อย่าลืมเชื่อม branch กับ issue ใน GitHub เพื่อให้ดูความคืบหน้าใน Board ได้
 
