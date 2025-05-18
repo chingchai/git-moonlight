@@ -80,7 +80,7 @@ Backlog → Ready → In Progress → In Review (QA) → Testing → Ready to De
      
 6. **📦 Refactor (`refactor/*`)**    
    ใช้สำหรับปรับโครงสร้างโค้ด 
-   **Naming convention**: `chore/{short-description}` 
+   **Naming convention**: `refactor/{short-description}` 
 
    **ตัวอย่าง**:
    - `refactor/simplify-user-service`
@@ -88,7 +88,7 @@ Backlog → Ready → In Progress → In Review (QA) → Testing → Ready to De
 
 7. **📚 Docs (`docs/*`)**    
    ใช้สำหรับเอกสาร
-   **Naming convention**: `chore/{short-description}` 
+   **Naming convention**: `docs/{short-description}` 
 
    **ตัวอย่าง**:
    - `docs/update-readme`
