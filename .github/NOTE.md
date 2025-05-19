@@ -37,6 +37,52 @@
 
 - อย่าลืมเชื่อม branch กับ issue ใน GitHub เพื่อให้ดูความคืบหน้าใน Board ได้
 
+# QA/Tester Note
+## QA_ISSUE_GUIDE.md
+```
+## แนวทางการสร้าง Bug Issue สำหรับ QA
+
+### ✅ ควรทำ:
+- 1 bug = 1 issue
+- ใส่รายละเอียด reproduction steps, expected/actual
+- เพิ่ม label: `bug`, `priority:high`, etc.
+- ใส่เข้า project board ใน column: Backlog
+- Assign ให้ PM/PO ถ้าต้อง refine
+
+### ❌ ไม่ควรทำ:
+- ไม่ควรเขียนหลาย bug ใน issue เดียว
+- ไม่ควรใช้ checklist แทน issue จริง
+- อย่าสร้าง issue โดยไม่ใส่ใน project board
+
+### ตัวอย่างโครงสร้างที่ดี:
+**Title:** Login fails with incorrect error message  
+**Body:**
+- Steps:
+  1. ...
+- Expected:
+- Actual:
+- Screenshot:
+
+```
+
+```
+## Bug: หน้า Login Error
+ -  อธิบาย
+### Reproduce Checklist:
+- [x] ใส่ username ผิด
+- [ ] ใส่ password ว่าง
+- [ ] กด login แล้วหน้าไม่ redirect
+```
+## Bug Report Summary
+```
+ตัวอย่าง:
+
+- Issue: [#105] Bug Summary: Login Module
+
+    - Linked: [#106] Login error with invalid credentials
+    - Linked: [#107] Missing validation on email
+
+```
 # ✅ Workflow Board
 ```
 Backlog
